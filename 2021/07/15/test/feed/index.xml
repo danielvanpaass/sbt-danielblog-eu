@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Test title post	</title>
-	<atom:link href="/2021/07/15/test/feed/" rel="self" type="application/rss+xml" />
-	<link>/2021/07/15/test/</link>
+	<atom:link href="/path/2021/07/15/test/feed/" rel="self" type="application/rss+xml" />
+	<link>/path/2021/07/15/test/</link>
 	<description></description>
 	<lastBuildDate>Fri, 16 Jul 2021 00:34:03 +0000</lastBuildDate>
 	<sy:updatePeriod>
