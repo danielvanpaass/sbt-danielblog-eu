@@ -9,8 +9,8 @@
 
 <channel>
 	<title>admin &#8211; Joining a Dreamteam</title>
-	<atom:link href="/path/author/admin/feed/" rel="self" type="application/rss+xml" />
-	<link>/path/</link>
+	<atom:link href="/author/admin/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description></description>
 	<lastBuildDate>Fri, 16 Jul 2021 00:34:03 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,28 +21,28 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 
 <image>
-	<url>/path/wp-content/uploads/2021/07/cropped-8-juli-monaco-2-scaled-2-100x100.jpg</url>
+	<url>/wp-content/uploads/2021/07/cropped-8-juli-monaco-2-scaled-2-100x100.jpg</url>
 	<title>admin &#8211; Joining a Dreamteam</title>
-	<link>/path/</link>
+	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Test title post</title>
-		<link>/path/2021/07/15/test/</link>
-					<comments>/path/2021/07/15/test/#respond</comments>
+		<link>/2021/07/15/test/</link>
+					<comments>/2021/07/15/test/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 15 Jul 2021 23:26:27 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/path/?p=289</guid>
+		<guid isPermaLink="false">/?p=289</guid>
 
 					<description><![CDATA[test post]]></description>
 										<content:encoded><![CDATA[
 <p>test post</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/path/2021/07/15/test/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/07/15/test/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
