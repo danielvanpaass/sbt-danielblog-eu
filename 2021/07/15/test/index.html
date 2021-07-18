@@ -59,6 +59,9 @@ img.emoji {
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2021/07/cropped-8-juli-monaco-2-scaled-2-300x300.jpg">
 		<style id="wp-custom-css">.site-info {
     display: none;
+}
+.comments-area {
+    display: none;
 }</style>
 		</head>
 
@@ -219,6 +222,10 @@ img.emoji {
 </div>
 <!-- #comments -->
 
+	<nav class="navigation post-navigation" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-next"><a href="/2021/07/18/2-short-intermezzo-tiny-house/" rel="next"><span class="screen-reader-text">Next Post</span><span aria-hidden="true" class="nav-subtitle">Next</span> <span class="nav-title">2. Short intermezzo: Tiny House!<span class="nav-title-icon-wrapper"><svg class="icon icon-arrow-right" aria-hidden="true" role="img"> <use href="#icon-arrow-right" xlink:href="#icon-arrow-right"></use> </svg></span></span></a></div></div>
+	</nav>
 		</main><!-- #main -->
 	</div>
 <!-- #primary -->
@@ -242,7 +249,39 @@ img.emoji {
 			</ul>
 
 			</nav></section>			</div>
-				</aside><!-- .widget-area -->
+						<div class="widget-column footer-widget-2">
+				<section id="mc4wp_form_widget-3" class="widget widget_mc4wp_form_widget"><h2 class="widget-title">Get notified with each new post!</h2>
+<script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.8.6 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-381" method="post" data-id="381" data-name="Get notified with each new post!">
+<div class="mc4wp-form-fields">
+<p>
+	<label>Email address: 
+		<input type="email" name="EMAIL" placeholder="Your email address" required>
+</label>
+</p>
+
+<p>
+	<input type="submit" value="Sign up">
+</p>
+</div>
+<label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1626624395"><input type="hidden" name="_mc4wp_form_id" value="381"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div>
+</form>
+<!-- / Mailchimp for WordPress Plugin --></section>			</div>
+			</aside><!-- .widget-area -->
 
 <div class="site-info">
 		<a href="https://wordpress.org/" class="imprint">
@@ -256,7 +295,19 @@ img.emoji {
 <!-- .site-content-contain -->
 </div>
 <!-- #page -->
-<link rel="stylesheet" id="metaslider-flex-slider-css" href="/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.20.3" media="all" property="stylesheet">
+<script>(function() {function maybePrefixUrlField() {
+	if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if (urlFields) {
+	for (var j=0; j < urlFields.length; j++) {
+		urlFields[j].addEventListener('blur', maybePrefixUrlField);
+	}
+}
+})();</script><link rel="stylesheet" id="metaslider-flex-slider-css" href="/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.20.3" media="all" property="stylesheet">
 <link rel="stylesheet" id="metaslider-public-css" href="/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.20.3" media="all" property="stylesheet">
 <script id="twentyseventeen-skip-link-focus-fix-js-extra">
 var twentyseventeenScreenReaderText = {"quote":"<svg class=\"icon icon-quote-right\" aria-hidden=\"true\" role=\"img\"> <use href=\"#icon-quote-right\" xlink:href=\"#icon-quote-right\"><\/use> <\/svg>","expand":"Expand child menu","collapse":"Collapse child menu","icon":"<svg class=\"icon icon-angle-down\" aria-hidden=\"true\" role=\"img\"> <use href=\"#icon-angle-down\" xlink:href=\"#icon-angle-down\"><\/use> <span class=\"svg-fallback icon-angle-down\"><\/span><\/svg>"};
@@ -312,6 +363,7 @@ var metaslider_340 = function($) {$('#metaslider_340').addClass('flexslider');
         };
         timer_metaslider_340();
 </script>
+<script defer src="/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.6" id="mc4wp-forms-api-js"></script>
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-behance" viewbox="0 0 37 32">
