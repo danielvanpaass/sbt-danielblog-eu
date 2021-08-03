@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Joining a Dreamteam</description>
-	<lastBuildDate>Mon, 02 Aug 2021 23:22:02 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 03 Aug 2021 00:06:19 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -32,7 +32,7 @@
 		<link>/2021/08/02/3-team-activity-and-verhuis-b-v-continuous/</link>
 					<comments>/2021/08/02/3-team-activity-and-verhuis-b-v-continuous/#respond</comments>
 		
-		<dc:creator><![CDATA[admin]]></dc:creator>
+		<dc:creator><![CDATA[Daniel van Paassen]]></dc:creator>
 		<pubDate>Mon, 02 Aug 2021 22:32:22 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/?p=385</guid>
@@ -100,7 +100,7 @@
 
 
 
-<p></p>
+<figure class="wp-block-image"><img alt=""/></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>/2021/08/02/3-team-activity-and-verhuis-b-v-continuous/feed/</wfw:commentRss>
@@ -113,7 +113,7 @@
 		<link>/2021/07/18/2-short-intermezzo-tiny-house/</link>
 					<comments>/2021/07/18/2-short-intermezzo-tiny-house/#respond</comments>
 		
-		<dc:creator><![CDATA[admin]]></dc:creator>
+		<dc:creator><![CDATA[Daniel van Paassen]]></dc:creator>
 		<pubDate>Sun, 18 Jul 2021 15:27:15 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/?p=353</guid>
@@ -192,6 +192,10 @@
         
     </div>
 </div></div>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="5614" height="1426" src="/wp-content/uploads/2021/08/PANO_20210802_120424.vr_-1.jpg" alt="" class="wp-image-438" srcset="/wp-content/uploads/2021/08/PANO_20210802_120424.vr_-1.jpg 5614w, /wp-content/uploads/2021/08/PANO_20210802_120424.vr_-1-300x76.jpg 300w, /wp-content/uploads/2021/08/PANO_20210802_120424.vr_-1-1024x260.jpg 1024w, /wp-content/uploads/2021/08/PANO_20210802_120424.vr_-1-768x195.jpg 768w, /wp-content/uploads/2021/08/PANO_20210802_120424.vr_-1-1536x390.jpg 1536w, /wp-content/uploads/2021/08/PANO_20210802_120424.vr_-1-2048x520.jpg 2048w" sizes="(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px" /><figcaption>Panorama inside the house.</figcaption></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>/2021/07/18/2-short-intermezzo-tiny-house/feed/</wfw:commentRss>
@@ -204,7 +208,7 @@
 		<link>/2021/07/15/test/</link>
 					<comments>/2021/07/15/test/#respond</comments>
 		
-		<dc:creator><![CDATA[admin]]></dc:creator>
+		<dc:creator><![CDATA[Daniel van Paassen]]></dc:creator>
 		<pubDate>Thu, 15 Jul 2021 23:26:27 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">/?p=289</guid>

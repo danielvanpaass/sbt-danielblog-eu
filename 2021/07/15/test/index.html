@@ -32,6 +32,7 @@ img.emoji {
 }</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=5.8" media="all">
 <style id="wp-block-library-theme-inline-css">#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}</style>
+<link rel="stylesheet" id="foobox-free-min-css" href="/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.16" media="all">
 <link rel="stylesheet" id="twentyseventeen-fonts-css" href="https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&#038;subset=latin%2Clatin-ext&#038;display=fallback" media="all">
 <link rel="stylesheet" id="twentyseventeen-style-css" href="/wp-content/themes/twentyseventeen/style.css?ver=20201208" media="all">
 <link rel="stylesheet" id="twentyseventeen-block-style-css" href="/wp-content/themes/twentyseventeen/assets/css/blocks.css?ver=20190105" media="all">
@@ -43,6 +44,32 @@ img.emoji {
 <![endif]-->
 <script src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script id="foobox-free-min-js-before">
+/* Run FooBox FREE (v2.7.16) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script src="/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.16" id="foobox-free-min-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
 <link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/289">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
@@ -115,7 +142,8 @@ img.emoji {
 		
 	</header><!-- #masthead -->
 
-	
+	<div class="single-featured-image-header"><img width="2000" height="1200" src="/wp-content/uploads/2021/07/2020.08.17_TUDelft_Solar_Boat_Ketelmeer_Race-©LifeshotsPhotography-7496-2000x1200.jpg" class="attachment-twentyseventeen-featured-image size-twentyseventeen-featured-image wp-post-image" alt="" loading="lazy" sizes="100vw"></div>
+<!-- .single-featured-image-header -->
 	<div class="site-content-contain">
 		<div id="content" class="site-content">
 
@@ -124,10 +152,10 @@ img.emoji {
 		<main id="main" class="site-main" role="main">
 
 			
-<article id="post-289" class="post-289 post type-post status-publish format-standard hentry category-uncategorized">
+<article id="post-289" class="post-289 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
 		<header class="entry-header">
 		<div class="entry-meta">
-<span class="posted-on"><span class="screen-reader-text">Posted on</span> <a href="/2021/07/15/test/" rel="bookmark"><time class="entry-date published" datetime="2021-07-15T23:26:27+01:00">July 15, 2021</time><time class="updated" datetime="2021-07-18T15:40:20+01:00">July 18, 2021</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="/author/admin/">admin</a></span></span>
+<span class="posted-on"><span class="screen-reader-text">Posted on</span> <a href="/2021/07/15/test/" rel="bookmark"><time class="entry-date published" datetime="2021-07-15T23:26:27+01:00">July 15, 2021</time><time class="updated" datetime="2021-08-03T00:40:09+01:00">August 3, 2021</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="/author/admin/">Daniel van Paassen</a></span></span>
 </div>
 <!-- .entry-meta --><h1 class="entry-title">1. The beginning</h1>	</header><!-- .entry-header -->
 

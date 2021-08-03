@@ -31,6 +31,7 @@ img.emoji {
 }</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=5.8" media="all">
 <style id="wp-block-library-theme-inline-css">#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}</style>
+<link rel="stylesheet" id="foobox-free-min-css" href="/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.16" media="all">
 <link rel="stylesheet" id="twentyseventeen-fonts-css" href="https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&#038;subset=latin%2Clatin-ext&#038;display=fallback" media="all">
 <link rel="stylesheet" id="twentyseventeen-style-css" href="/wp-content/themes/twentyseventeen/style.css?ver=20201208" media="all">
 <link rel="stylesheet" id="twentyseventeen-block-style-css" href="/wp-content/themes/twentyseventeen/assets/css/blocks.css?ver=20190105" media="all">
@@ -42,6 +43,32 @@ img.emoji {
 <![endif]-->
 <script src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script id="foobox-free-min-js-before">
+/* Run FooBox FREE (v2.7.16) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script src="/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.16" id="foobox-free-min-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
 <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/291">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
@@ -135,9 +162,20 @@ img.emoji {
 
 
 <ul class="wp-block-latest-posts__list wp-block-latest-posts">
-<li><a href="/2021/08/02/3-team-activity-and-verhuis-b-v-continuous/">3. Team activity and verhuis B.V. continuous</a></li>
-<li><a href="/2021/07/18/2-short-intermezzo-tiny-house/">2. Short intermezzo: Tiny House!</a></li>
-<li><a href="/2021/07/15/test/">1. The beginning</a></li>
+<li>
+<div class="wp-block-latest-posts__featured-image"><img width="150" height="150" src="/wp-content/uploads/2021/07/2020.08.17_TUDelft_Solar_Boat_Ketelmeer_Race-©LifeshotsPhotography-7496-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2021/07/2020.08.17_TUDelft_Solar_Boat_Ketelmeer_Race-©LifeshotsPhotography-7496-150x150.jpg 150w, /wp-content/uploads/2021/07/2020.08.17_TUDelft_Solar_Boat_Ketelmeer_Race-©LifeshotsPhotography-7496-100x100.jpg 100w" sizes="100vw"></div>
+<a href="/2021/07/15/test/">1. The beginning</a><div class="wp-block-latest-posts__post-excerpt">It was very exciting to start with a project that I knew would take a whole year. The focus on the first weeks really was on getting to know the team and boats in general. All interaction that we had before was a Zoom speeddate of 2 minutes with each other team member. We were &hellip; <p class="link-more"><a href="/2021/07/15/test/" class="more-link">Continue reading<span class="screen-reader-text"> &#8220;1. The beginning&#8221;</span></a></p>
+</div>
+</li>
+<li>
+<div class="wp-block-latest-posts__featured-image"><img width="150" height="150" src="/wp-content/uploads/2021/08/IMG_20201129_153620-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" srcset="/wp-content/uploads/2021/08/IMG_20201129_153620-150x150.jpg 150w, /wp-content/uploads/2021/08/IMG_20201129_153620-100x100.jpg 100w" sizes="100vw"></div>
+<a href="/2021/07/18/2-short-intermezzo-tiny-house/">2. Short intermezzo: Tiny House!</a><div class="wp-block-latest-posts__post-excerpt">Besides putting most of my time in Solar Boat, I also helped my sister on some weekends with her ambitious project, building a tiny house on her own! With some support of my father, she was planning to build a house on wheels from scratch to move later on near Eindhoven. As a creative person, &hellip; <p class="link-more"><a href="/2021/07/18/2-short-intermezzo-tiny-house/" class="more-link">Continue reading<span class="screen-reader-text"> &#8220;2. Short intermezzo: Tiny House!&#8221;</span></a></p>
+</div>
+</li>
+<li>
+<a href="/2021/08/02/3-team-activity-and-verhuis-b-v-continuous/">3. Team activity and verhuis B.V. continuous</a><div class="wp-block-latest-posts__post-excerpt">During these months, the departments are decided and every engineer has got their task and role, it still consists of office work and researching/documentation. So it is nice to alternate this with some team activities where we can also grow as a team in a more relaxed environment. Of course we also had to give &hellip; <p class="link-more"><a href="/2021/08/02/3-team-activity-and-verhuis-b-v-continuous/" class="more-link">Continue reading<span class="screen-reader-text"> &#8220;3. Team activity and verhuis B.V. continuous&#8221;</span></a></p>
+</div>
+</li>
 </ul>
 
 
