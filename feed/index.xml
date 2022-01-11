@@ -12,13 +12,13 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Joining a Dreamteam</description>
-	<lastBuildDate>Sun, 12 Dec 2021 22:58:43 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 11 Jan 2022 15:28:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 
 <image>
 	<url>/wp-content/uploads/2021/07/cropped-8-juli-monaco-2-scaled-2-100x100.jpg</url>
@@ -28,6 +28,107 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>6. Testing</title>
+		<link>/2022/01/11/6-testing/</link>
+					<comments>/2022/01/11/6-testing/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel van Paassen]]></dc:creator>
+		<pubDate>Tue, 11 Jan 2022 15:28:55 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=602</guid>
+
+					<description><![CDATA[If we thought at the production phase that it would be the busiest one, we were wrong. During testing, the most unpredictable things arose and could sometimes end up taking the entire night (or longer). I would be lying if I said that I did not mind. Sometimes you&#8217;ve been stuck with a small problem &#8230; <p class="link-more"><a href="/2022/01/11/6-testing/" class="more-link">Continue reading<span class="screen-reader-text"> "6. Testing"</span></a></p>]]></description>
+										<content:encoded><![CDATA[
+<p>If we thought at the production phase that it would be the busiest one, we were wrong. During testing, the most unpredictable things arose and could sometimes end up taking the entire night (or longer). I would be lying if I said that I did not mind. Sometimes you&#8217;ve been stuck with a small problem for way too long. However, the satisfaction of eventually solving it does help. Also, discussing solutions within the same department or different departments put things more into perspective. One big disadvantage however, is that there is often one obstacle that only a select few people can work on at the time.  Creating a more steep variance of working hours per person. </p>
+
+
+
+<div class="alignnormal"><div id="metaslider-id-603" style="width: 100%;" class="ml-slider-3-23-5 metaslider metaslider-flex metaslider-603 ml-slider">
+    <div id="metaslider_container_603">
+        <div id="metaslider_603">
+            <ul aria-live="polite" class="slides">
+                <li style="display: block; width: 100%;" class="slide-611 ms-image"><img src="/wp-content/uploads/2021/12/PXL_20210607_155939547-rotated-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-603 slide-611" title="PXL_20210607_155939547" /><div class="caption-wrap"><div class="caption">Hot testing days outside.</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-608 ms-image"><img src="/wp-content/uploads/2021/12/IMG_2021-06-04-16-11-38-755-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-603 slide-608" title="IMG_2021-06-04-16-11-38-755" /><div class="caption-wrap"><div class="caption">The big jigsaw puzzle of in and outlets of the fuel cell.</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-612 ms-image"><img src="/wp-content/uploads/2021/12/IMG_20210224_101841-rotated-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-603 slide-612" title="IMG_20210224_101841" /><div class="caption-wrap"><div class="caption">Just making sure in the best way possible that the electrical glove does not have holes.</div></div></li>
+            </ul>
+        </div>
+        
+    </div>
+</div></div>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Electrical tests" width="525" height="295" src="https://www.youtube.com/embed/VPFCBDqXLdo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><figcaption>Testing of the fuel cell.</figcaption></figure>
+
+
+
+<p>After testing the individual components, it gets more exciting by testing the boat for the first time on water! This happened during warm weather, which makes it more realistic to the Monaco heat but also more enjoyable to be outside. In all honesty: the first times getting into the boat were a bit scary. But seeing the boat being assembled before lifting it into the water was absolutely majestic. </p>
+
+
+
+<div class="alignnormal"><div id="metaslider-id-615" style="width: 100%;" class="ml-slider-3-23-5 metaslider metaslider-flex metaslider-615 ml-slider">
+    <div id="metaslider_container_615">
+        <div id="metaslider_615">
+            <ul aria-live="polite" class="slides">
+                <li style="display: block; width: 100%;" class="slide-623 ms-image"><img src="/wp-content/uploads/2021/12/20210526_125422-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-615 slide-623" title="20210526_125422" /><div class="caption-wrap"><div class="caption">Getting into the boat just after hoisting. </div></div></li>
+                <li style="display: none; width: 100%;" class="slide-624 ms-image"><img src="/wp-content/uploads/2021/12/20210526_133745-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-615 slide-624" title="20210526_133745" /><div class="caption-wrap"><div class="caption">The crew®. (From left to right: Hidde (one of the pilots), Lieke (in charge of diagnostics) and me (the freeloader).</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-626 ms-image"><img src="/wp-content/uploads/2021/12/IMG_2021-05-25-12-31-06-519-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-615 slide-626" title="IMG_2021-05-25-12-31-06-519" /><div class="caption-wrap"><div class="caption">The assembled boat in the storage hall were it fits through the door by just a hair.</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-627 ms-image"><img src="/wp-content/uploads/2021/12/TU-Delft-Solar-Boat-Team-Hydro-Motion-2-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-615 slide-627" title="TU Delft Solar Boat Team - Hydro Motion 2" /><div class="caption-wrap"><div class="caption">Sailing in the Eemshaven (Rotterdam).</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-628 ms-image"><img src="/wp-content/uploads/2021/12/TU-Delft-Solar-Boat-Team-Hydro-Motion-8-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-615 slide-628" title="TU Delft Solar Boat Team - Hydro Motion 8" /></li>
+                <li style="display: none; width: 100%;" class="slide-629 ms-image"><img src="/wp-content/uploads/2021/12/TU-Delft-Solar-Boat-Team-Hydro-Motion-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-615 slide-629" title="TU Delft Solar Boat Team - Hydro Motion" /></li>
+            </ul>
+        </div>
+        
+    </div>
+</div></div>
+
+
+
+<p>We also had a Partner Day. It was very interesting to be able to talk to people from different companies and listen to their view on typical problems that we encountered. Unfortunately we did not have working foils at this stage, but these representatives were still happy to see the boat sail on hydrogen. </p>
+
+
+
+<div class="alignnormal"><div id="metaslider-id-630" style="width: 100%;" class="ml-slider-3-23-5 metaslider metaslider-flex metaslider-630 ml-slider">
+    <div id="metaslider_container_630">
+        <div id="metaslider_630">
+            <ul aria-live="polite" class="slides">
+                <li style="display: block; width: 100%;" class="slide-637 ms-image"><img src="/wp-content/uploads/2021/12/IMG_2412-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-630 slide-637" title="IMG_2412" /><div class="caption-wrap"><div class="caption">At a quiz about the boat with the representatives of the companies participating. </div></div></li>
+                <li style="display: none; width: 100%;" class="slide-635 ms-image"><img src="/wp-content/uploads/2021/12/DJI_0008-1430x1072.jpg" height="1500" width="2000" alt="" class="slider-630 slide-635" title="DJI_0008" /><div class="caption-wrap"><div class="caption">A beautiful view shot from a drone.</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-634 ms-image"><img src="/wp-content/uploads/2021/12/20210608_132851-rotated-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-630 slide-634" title="20210608_132851" /><div class="caption-wrap"><div class="caption">Gotta protect yourself from the sun.</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-636 ms-image"><img src="/wp-content/uploads/2021/12/IMG-20210526-WA0019-1200x900.jpg" height="1500" width="2000" alt="" class="slider-630 slide-636" title="IMG-20210526-WA0019" /><div class="caption-wrap"><div class="caption">Me getting my ass wet on the net of the boat, it was comfortable though. </div></div></li>
+            </ul>
+        </div>
+        
+    </div>
+</div></div>
+
+
+
+<p>One more step to get to the complete boat, hydrofoils! Whereas previous years had most of the problems on the water, we were struggling to get the hydrofoils to work on land. This was compensated however in the first moment that the boat began to rise out of the water. Instead of immediately falling in water again it stayed up relatively smooth and gave the opportunity of making beautiful shots. </p>
+
+
+
+<div class="alignnormal"><div id="metaslider-id-640" style="width: 100%;" class="ml-slider-3-23-5 metaslider metaslider-flex metaslider-640 ml-slider">
+    <div id="metaslider_container_640">
+        <div id="metaslider_640">
+            <ul aria-live="polite" class="slides">
+                <li style="display: block; width: 100%;" class="slide-643 ms-image"><img src="/wp-content/uploads/2022/01/Flying-Boat-7-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-640 slide-643" title="Flying Boat (7)" /><div class="caption-wrap"><div class="caption">At the beginning it was not too stable, but that makes for beautiful pictures.</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-644 ms-image"><img src="/wp-content/uploads/2022/01/Flying-boat-1-2000x1500.jpg" height="1500" width="2000" alt="" class="slider-640 slide-644" title="Flying boat-1" /><div class="caption-wrap"><div class="caption">Flying after a long day of testing.</div></div></li>
+            </ul>
+        </div>
+        
+    </div>
+</div></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/01/11/6-testing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>5. Ice skating and the start of Production</title>
 		<link>/2021/12/12/5-ice-skating-and-the-start-of-production/</link>
 					<comments>/2021/12/12/5-ice-skating-and-the-start-of-production/#respond</comments>
